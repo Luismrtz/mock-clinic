@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          
+    "module": "ESNext",                       
+    "jsx": "react",                           
+    "strict": true,                           
+    "moduleResolution": "node",             
+    "esModuleInterop": true,                
+    "skipLibCheck": true,                 
+    "noEmit": true,                        
+    "types": ["cypress"]                  
+  },
+  "include": [
+    "src",                                  
+    "cypress/**/*.ts"                      
+  ],
+  "exclude": [
+    "node_modules"                         
+  ]
+}
