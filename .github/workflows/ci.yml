@@ -19,6 +19,14 @@ jobs:
       - name: Install Dependencies
         run: npm ci                     
 
+      - name: Start Application
+        run: npm start &
+        env:
+          CI: true
+
+      - name: Wait for Application
+        run: npx wait-on http://localhost:3000
+
       - name: Run E2E Tests
         uses: cypress-io/github-action@v6
         with:
