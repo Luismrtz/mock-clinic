@@ -15,7 +15,8 @@ jobs:
           rm -rf node_modules
           rm -rf .cache
           rm -rf node_modules/.cache
-          npm cache clean --force  
+          rm -rf node_modules/.cache/babel-loader
+          npm cache clean --force  # Clear npm's local cache
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,7 +24,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Start Application
         run: npm start &
