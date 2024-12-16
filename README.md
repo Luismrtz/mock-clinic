@@ -12,7 +12,11 @@
 - State management and API interactions with **Redux Toolkit**
 - e2e/integration testing with **Cypress**
 
-## Website Design (Figma)
+
+## Mobile Design (Figma)
+![Figma Design Preview](/public/images/mobile-view.PNG) 
+
+## Destop Design (Figma)
 
 ![Figma Design Preview](/public/images/Mock-Clinic.PNG) 
 
