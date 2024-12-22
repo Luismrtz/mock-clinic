@@ -29,6 +29,11 @@ Note: Minor tweaks will be made. The final implementation will closelly resemble
 Note: Diagram may evolve as new features are introduced.
 
 
+## Acknowledgments
+
+This project was inspired by [UCLA Health](https://www.uclahealth.org), specifically the design and functionality of the navbar. All code was created from scratch.
+
+
 ## Getting Started
 
 ### `npm install`
