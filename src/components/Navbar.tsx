@@ -35,13 +35,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <>
       <div
-        className={`fixed duration-200 w-full  ${
+        className={`sticky top-0 duration-200 w-full  ${
           isScrolled ? "shadow-md" : "shadow-sm"
         }`}
       >
-        <div className="flex bg-primary text-sm text-background2  py-0.5 px-4 justify-between">
+        <nav className="flex bg-primary text-sm text-background2  py-0.5 px-4 justify-between">
           <div className="flex gap-2 items-center">
             <Email className="w-4 h-4 text-background2 " />
             <span>info@clinic.com</span>
@@ -60,8 +59,8 @@ const Navbar = () => {
               Search
             </button>
           </div>
-        </div>
-        <nav className="flex  justify-between items-center bg-background2 py-6 px-4">
+        </nav>
+        <nav className="flex justify-between items-center bg-background2 py-6 px-4">
           <Link
             to="/"
             onClick={closeMenu}
@@ -159,7 +158,6 @@ const Navbar = () => {
         {menuOpen && <NavMenu closeMenu={closeMenu} />}
         {searchOpen && <NavSearch toggleSearch={toggleSearch} />}
       </div>
-    </>
   );
 };
 
