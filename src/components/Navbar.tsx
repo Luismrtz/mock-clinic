@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`sticky top-0 duration-200 w-full  ${
+      className={`sticky top-0 duration-200 w-full z-[100]  ${
         isScrolled ? "shadow-md" : "shadow-sm"
       }`}
     >
