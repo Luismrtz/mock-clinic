@@ -40,7 +40,7 @@ const Navbar = () => {
         isScrolled ? "shadow-md" : "shadow-sm"
       }`}
     >
-      <nav className="flex bg-primary text-sm text-background2  py-0.5 px-4 justify-between">
+      <nav className="flex bg-primary text-sm text-background2  py-0.5 px-6 sm:px-12 lg:px-20 justify-between">
         <div className="flex gap-2 items-center">
           <Email className="w-4 h-4 text-background2 " />
           <span>info@clinic.com</span>
@@ -60,7 +60,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-      <nav className="flex justify-between items-center bg-background2 py-6 px-4">
+      <nav className="flex justify-between items-center bg-background2 py-6 px-6 sm:px-12 lg:px-20">
         <Link
           to="/"
           onClick={closeMenu}
@@ -145,7 +145,7 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <a
             href="/"
-            className="font-semibold bg-secondary text-background2 hover: px-4 py-2 rounded hover:shadow-xl transition"
+            className="font-semibold bg-primary text-background2 hover:bg-secondary px-4 py-2 rounded hover:shadow-xl transition"
           >
             Patient Portal
           </a>
