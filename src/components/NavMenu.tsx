@@ -33,7 +33,7 @@ const NavMenu = ({ closeMenu }: NavMenuProps) => {
   return (
     <>
       <div
-        className={`fixed inset-x-0 text-primary font-semibold bg-stone-50 max-h-full h-full bg-white z-50 shadow-lg transition-opacity duration-300 
+        className={`fixed inset-x-0 text-primary font-semibold bg-stone-50 max-h-full h-full z-50 shadow-lg transition-opacity duration-300 
         `}
       >
         <nav className="p-4 space-y-4">
