@@ -1,4 +1,4 @@
-# Mock Clilnic Website - Work in Progress
+# Mock Clinic Website - Work in Progress
 
 - **React**
 - **TypeScript**
