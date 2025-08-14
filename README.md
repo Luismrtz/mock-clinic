@@ -28,6 +28,8 @@ Note: Minor tweaks will be made. The final implementation will closelly resemble
 
 Note: Diagram may evolve as new features are introduced.
 
+## Related Projects
+- [Mock Clinic API](https://github.com/Luismrtz/mock-clinic-api)
 
 ## Getting Started
 
